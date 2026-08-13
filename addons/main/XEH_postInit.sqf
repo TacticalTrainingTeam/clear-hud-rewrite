@@ -1,6 +1,8 @@
 #include "script_component.hpp"
 #include "\a3\ui_f\hpp\defineDIKCodes.inc"
 
+if (!hasInterface) exitWith {};
+
 //initiate the cba keybind, will return the current keybind
 private _keybind = [
     ELSTRING(main,name),
