@@ -12,7 +12,7 @@
  * True <BOOLEAN>
  *
  * Example:
- * [] call ttt_clearhud_fnc_registerChatKeybind
+ * [] call chr_main_fnc_registerChatKeybind
  *
  * Public: No
  */

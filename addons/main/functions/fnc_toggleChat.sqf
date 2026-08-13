@@ -16,7 +16,7 @@
  * True <BOOLEAN>
  *
  * Example:
- * [] call ttt_clearhud_fnc_toggleChat
+ * [] call chr_main_fnc_toggleChat
  *
  * Public: No
  */
