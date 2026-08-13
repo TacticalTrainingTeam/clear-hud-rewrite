@@ -13,7 +13,7 @@
  * 4: Alt pressed <BOOLEAN>
  *
  * Return Value:
- * True <BOOLEAN>
+ * Status <BOOLEAN>
  *
  * Example:
  * [] call chr_main_fnc_toggleChat
@@ -48,4 +48,4 @@ hint formatText [LLSTRING(hintToggle), _activated, lineBreak, _keybind];
 
 GVAR(activated) = _status;
 
-true
+_status

@@ -1,7 +1,15 @@
 #include "script_component.hpp"
+#include "\a3\ui_f\hpp\defineDIKCodes.inc"
 
-//For each client, register the keybind
-call FUNC(registerChatKeybind);
+//initiate the cba keybind, will return the current keybind
+private _keybind = [
+    ELSTRING(main,name),
+    "SwitchChat",
+    [LSTRING(chatKeybindName),LSTRING(chatKeybindTooltip)],
+    { _this call FUNC(toggleChat) },
+    "",
+    [DIK_COMMA, [true, false, false]]
+] call CBA_fnc_addKeybind;
 
 //deactivate the chat by default in MP and assign it to a handle
 if (isMultiplayer && GVAR(activated)) then {
