@@ -1,6 +1,6 @@
 # Clear Hud Rewrite
 
-![Clear Hud Logo](img\chr_logo.png)
+![Clear Hud Logo](img/chr_logo.png)
 
 Rewrite of the original Clear Hud by Soldia.
 
