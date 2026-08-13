@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="chr">
+    <Package name="Main">
+        <Key ID="STR_chr_Main_Author">
+            <English>Clear Hud Rewrite Team</English>
+            <Czech>Clear Hud Rewrite Team</Czech>
+            <French>Clear Hud Rewrite Team</French>
+            <Spanish>Clear Hud Rewrite Team</Spanish>
+            <Italian>Clear Hud Rewrite Team</Italian>
+            <Polish>Clear Hud Rewrite Team</Polish>
+            <Portuguese>Clear Hud Rewrite Team</Portuguese>
+            <Russian>Clear Hud Rewrite Team</Russian>
+            <German>Clear Hud Rewrite Team</German>
+            <Korean>Clear Hud Rewrite Team</Korean>
+            <Japanese>Clear Hud Rewrite Team</Japanese>
+            <Chinese>Clear Hud Rewrite Team</Chinese>
+            <Chinesesimp>Clear Hud Rewrite Team</Chinesesimp>
+            <Turkish>Clear Hud Rewrite Team</Turkish>
+            <Swedish>Clear Hud Rewrite Team</Swedish>
+            <Slovak>Clear Hud Rewrite Team</Slovak>
+            <Norwegian>Clear Hud Rewrite Team</Norwegian>
+            <Icelandic>Clear Hud Rewrite Team</Icelandic>
+            <Hungarian>Clear Hud Rewrite Team</Hungarian>
+            <Greek>Clear Hud Rewrite Team</Greek>
+            <Finnish>Clear Hud Rewrite Team</Finnish>
+            <Dutch>Clear Hud Rewrite Team</Dutch>
+            <Ukrainian>Clear Hud Rewrite Team</Ukrainian>
+            <Bulgarian>Clear Hud Rewrite Team</Bulgarian>
+            <Latin>Clear Hud Rewrite Team</Latin>
+        </Key>
+        <Key ID="STR_chr_Main_Name">
+            <English>Clear Hud Rewrite</English>
+            <Czech>Clear Hud Rewrite</Czech>
+            <French>Clear Hud Rewrite</French>
+            <Spanish>Clear Hud Rewrite</Spanish>
+            <Italian>Clear Hud Rewrite</Italian>
+            <Polish>Clear Hud Rewrite</Polish>
+            <Portuguese>Clear Hud Rewrite</Portuguese>
+            <Russian>Clear Hud Rewrite</Russian>
+            <German>Clear Hud Rewrite</German>
+            <Korean>Clear Hud Rewrite</Korean>
+            <Japanese>Clear Hud Rewrite</Japanese>
+            <Chinese>Clear Hud Rewrite</Chinese>
+            <Chinesesimp>Clear Hud Rewrite</Chinesesimp>
+            <Turkish>Clear Hud Rewrite</Turkish>
+            <Swedish>Clear Hud Rewrite</Swedish>
+            <Slovak>Clear Hud Rewrite</Slovak>
+            <Norwegian>Clear Hud Rewrite</Norwegian>
+            <Icelandic>Clear Hud Rewrite</Icelandic>
+            <Hungarian>Clear Hud Rewrite</Hungarian>
+            <Greek>Clear Hud Rewrite</Greek>
+            <Finnish>Clear Hud Rewrite</Finnish>
+            <Dutch>Clear Hud Rewrite</Dutch>
+            <Ukrainian>Clear Hud Rewrite</Ukrainian>
+            <Bulgarian>Clear Hud Rewrite</Bulgarian>
+            <Latin>Clear Hud Rewrite</Latin>
+        </Key>
+        <Key ID="STR_chr_Main_URL">
+            <English>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</English>
+            <Czech>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Czech>
+            <French>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</French>
+            <Spanish>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Spanish>
+            <Italian>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Italian>
+            <Polish>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Polish>
+            <Portuguese>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Portuguese>
+            <Russian>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Russian>
+            <German>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</German>
+            <Korean>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Korean>
+            <Japanese>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Japanese>
+            <Chinese>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Chinese>
+            <Chinesesimp>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Chinesesimp>
+            <Turkish>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Turkish>
+            <Swedish>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Swedish>
+            <Slovak>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Slovak>
+            <Norwegian>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Norwegian>
+            <Icelandic>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Icelandic>
+            <Hungarian>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Hungarian>
+            <Greek>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Greek>
+            <Finnish>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Finnish>
+            <Dutch>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Dutch>
+            <Ukrainian>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Ukrainian>
+            <Bulgarian>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Bulgarian>
+            <Latin>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Latin>
+        </Key>
+        <Key ID="STR_chr_Main_chatDisabled">
+            <English>disabled</English>
+            <German>deaktiviert</German>
+        </Key>
+        <Key ID="STR_chr_Main_chatEnabled">
+            <English>enabled</English>
+            <German>aktiviert</German>
+        </Key>
+        <Key ID="STR_chr_Main_chatKeybindName">
+            <English>Disable / Enable Chat</English>
+            <German>Chat deaktivieren / aktivieren</German>
+        </Key>
+        <Key ID="STR_chr_Main_chatKeybindTooltip">
+            <English>Press to toggle the chat.</English>
+            <German>Drücke um den Chat ein-/auszublenden.</German>
+        </Key>
+        <Key ID="STR_chr_Main_hintDefault">
+            <English>Chat is now %1.</English>
+            <German>Chat ist nun %1.</German>
+        </Key>
+        <Key ID="STR_chr_Main_hintToggle">
+            <English>The Chat is now %1.%2This can be changed by pressing %3.</English>
+            <German>Der Chat ist nun %1.%2Dies kann durch Drücken von %3 geändert werden.</German>
+        </Key>
+    </Package>
+</Project>

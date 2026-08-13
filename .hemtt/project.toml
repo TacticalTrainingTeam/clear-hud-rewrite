@@ -2,3 +2,20 @@ name = "Clear Hud Rewrite"
 author = "Andx"
 prefix = "chr"
 mainprefix = "z"
+
+[files]
+include = [
+    "meta.cpp",
+    "mod.cpp",
+    "authors.txt",
+    "LICENSE",
+    "/img/*.paa",
+    "*.bikey"
+]
+
+[version]
+# path = "addons/main/script_version.hpp" # Default
+# major = 0 # Overrides path when set
+# minor = 1
+# patch = 1
+git_hash = 0 # Default: 8
