@@ -25,14 +25,12 @@ TRACE_1("fnc_toggleChat",_this);
 
 params ["", "_dikCode", "_shift", "_ctrl", "_alt"];
 
-private _activated = "";
-
-if (shownChat) then {
-    _activated = parseText LLSTRING(chatDisabled);
+private _activated = if (shownChat) then {
     showChat false;
+    parseText LLSTRING(chatDisabled);
 } else {
-    _activated = parseText LLSTRING(chatEnabled);
     showChat true;
+    parseText LLSTRING(chatEnabled);
 };
 
 //translate the DIK code and modifiers into the readable keybind name
@@ -42,3 +40,5 @@ private _keybind = parseText format ["<t color='#FFA54F'>%1</t>", _keyName];
 [
     formatText [LLSTRING(hintToggle), _activated, lineBreak, _keybind]
 ] call ace_common_fnc_displayTextStructured;
+
+true
