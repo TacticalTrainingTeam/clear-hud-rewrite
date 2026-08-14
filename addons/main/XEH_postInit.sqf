@@ -17,7 +17,7 @@ if (isMultiplayer) then {
     [
         {
             // Wait until the chat display exists
-            (!isNull (findDisplay 24))
+            (!isNull (findDisplay IDD_CHAT))
         },
         {
             //Disable Chat and Display Hint
