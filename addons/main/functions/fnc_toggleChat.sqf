@@ -30,11 +30,9 @@ private _activated = "";
 if (shownChat) then {
     _activated = parseText LLSTRING(chatDisabled);
     showChat false;
-    _status = false;
 } else {
     _activated = parseText LLSTRING(chatEnabled);
     showChat true;
-    _status = true;
 };
 
 //translate the DIK code and modifiers into the readable keybind name
