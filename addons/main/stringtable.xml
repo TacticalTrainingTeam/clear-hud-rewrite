@@ -83,12 +83,12 @@
             <Latin>https://github.com/TacticalTrainingTeam/clear-hud-rewrite</Latin>
         </Key>
         <Key ID="STR_chr_Main_chatDisabled">
-            <English>disabled</English>
-            <German>deaktiviert</German>
+            <English>&lt;t color='#ff0000'&gt;disabled&lt;/t&gt;</English>
+            <German>&lt;t color='#ff0000'&gt;deaktiviert&lt;/t&gt;</German>
         </Key>
         <Key ID="STR_chr_Main_chatEnabled">
-            <English>enabled</English>
-            <German>aktiviert</German>
+            <English>&lt;t color='#00ff00'&gt;enabled&lt;/t&gt;</English>
+            <German>&lt;t color='#00ff00'&gt;aktiviert&lt;/t&gt;</German>
         </Key>
         <Key ID="STR_chr_Main_chatKeybindName">
             <English>Disable / Enable Chat</English>

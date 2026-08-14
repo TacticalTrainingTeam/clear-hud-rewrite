@@ -3,19 +3,30 @@
 
 if (!hasInterface) exitWith {};
 
-//initiate the cba keybind, will return the current keybind
+//initiate the cba keybind
 private _keybind = [
     ELSTRING(main,name),
-    "SwitchChat",
+    QGVAR(toggleChat),
     [LSTRING(chatKeybindName),LSTRING(chatKeybindTooltip)],
     { _this call FUNC(toggleChat) },
     "",
     [DIK_COMMA, [true, false, false]]
 ] call CBA_fnc_addKeybind;
 
-//deactivate the chat by default in MP and assign it to a handle
-if (isMultiplayer && GVAR(activated)) then {
-    GVAR(handle) = [{clearRadio;}, 0, []] call CBA_fnc_addPerFrameHandler;
-    private _activated = parseText format ["<t color='#ff0000'>%1</t>", LLSTRING(chatDisabled)];
-    hint formatText [LLSTRING(hintDefault), _activated]
+if (isMultiplayer) then {
+    [
+        {
+            // Wait until the chat display exists
+            (!isNull (findDisplay 24))
+        },
+        {
+            //Disable Chat and Display Hint
+            showChat false;
+
+            private _activated = parseText LLSTRING(chatDisabled);
+            [
+                formatText [LLSTRING(hintDefault), _activated]
+            ] call ace_common_fnc_displayTextStructured;
+        }
+    ] call CBA_fnc_waitUntilAndExecute;
 };

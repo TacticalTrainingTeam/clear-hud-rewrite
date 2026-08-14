@@ -25,20 +25,15 @@ TRACE_1("fnc_toggleChat",_this);
 
 params ["", "_dikCode", "_shift", "_ctrl", "_alt"];
 
-//read the current status of chat deactivation (true = deactivated)
-private _status = GVAR(activated);
-
-//create several strings for the current variables
 private _activated = "";
-if (_status) then {
-    _activated = parseText format ["<t color='#00ff00'>%1</t>", LLSTRING(chatEnabled)];
-    if (!isNil QGVAR(handle)) then {
-        [GVAR(handle)] call CBA_fnc_removePerFrameHandler;
-    };
+
+if (shownChat) then {
+    _activated = parseText LLSTRING(chatDisabled);
+    showChat false;
     _status = false;
 } else {
-    _activated = parseText format ["<t color='#ff0000'>%1</t>", LLSTRING(chatDisabled)];
-    GVAR(handle) = [{clearRadio;}, 0, []] call CBA_fnc_addPerFrameHandler;
+    _activated = parseText LLSTRING(chatEnabled);
+    showChat true;
     _status = true;
 };
 
@@ -49,7 +44,3 @@ private _keybind = parseText format ["<t color='#FFA54F'>%1</t>", _keyName];
 [
     formatText [LLSTRING(hintToggle), _activated, lineBreak, _keybind]
 ] call ace_common_fnc_displayTextStructured;
-
-GVAR(activated) = _status;
-
-_status
