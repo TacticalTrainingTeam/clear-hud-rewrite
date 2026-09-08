@@ -7,10 +7,3 @@ PREP_RECOMPILE_START;
 PREP_RECOMPILE_END;
 
 ADDON = true;
-
-if(!hasInterface) exitWith {};
-
-//Define a global variable, chat deactivated by default
-if(isNil QGVAR(activated)) then {
-    GVAR(activated) = true;
-};
