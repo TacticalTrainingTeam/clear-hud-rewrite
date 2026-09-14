@@ -1,0 +1,24 @@
+[h1]Clear Hud Rewrite[/h1]
+
+[b]Clear Hud Rewrite[/b] hides your chat when on multiplayer servers. Toggle it with a configurable key-press.
+
+Rewrite of the original Clear Hud by Soldia.
+
+[h1]Requirements[/h1]
+
+[list]
+[*] [url=https://github.com/CBATeam/CBA_A3]CBA_A3[/url]
+[/list]
+
+[h1]Source & Issues[/h1]
+
+Fully open-source. Bug reports, feature requests, and contributions are all welcome.
+
+[url=https://github.com/TacticalTrainingTeam/clear-hud-rewrite]GitHub Repository[/url]
+[url=https://github.com/TacticalTrainingTeam/clear-hud-rewrite/issues]Report an Issue[/url]
+
+Licensed under [url=https://github.com/TacticalTrainingTeam/clear-hud-rewrite/blob/main/LICENSE]MIT[/url].
+
+---
+
+Suchst du eine deutschsprachige Arma3 und Reforger Community? -> https://tacticalteam.de/mitmachen
