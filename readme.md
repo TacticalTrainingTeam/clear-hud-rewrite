@@ -1,6 +1,7 @@
 # Clear Hud Rewrite
 
-![Clear Hud Logo](img/chr_logo.png)
+![Clear Hud Logo](img/clear_hud_rewrite_logo_white.png#gh-dark-mode-only)
+![Clear Hud Logo](img/clear_hud_rewrite_logo_black.png#gh-light-mode-only)
 
 Hides your chat when on multiplayer servers. Toggle it with a configurable key-press.
 
