@@ -14,7 +14,8 @@
         <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="Clear Hud Rewrite License">
     </a>
     <br>
-    <img src="https://img.shields.io/github/actions/workflow/status/TacticalTrainingTeam/clear-hud-rewrite/ci.yml?style=flat-square&label=Check" alt="Check">
+    <img src="https://img.shields.io/github/actions/workflow/status/TacticalTrainingTeam/clear-hud-rewrite/check.yml?style=flat-square&label=Check" alt="Check">
+    <img src="https://img.shields.io/github/actions/workflow/status/TacticalTrainingTeam/clear-hud-rewrite/validate.yml?style=flat-square&label=Validate" alt="Validate">
 </p>
 
 __Requires__ [CBA_A3](https://github.com/CBATeam/CBA_A3).
