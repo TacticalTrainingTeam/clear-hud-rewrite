@@ -27,6 +27,7 @@ Rewrite of the original Clear Hud by Soldia.
 The project is entirely __open-source__ and any contributions are welcome.
 
 Steam Workshop: <https://steamcommunity.com/sharedfiles/filedetails/?id=3782602516>
+Discord: <https://discord.gg/ag4v6kxYAa>
 
 ## Contributing
 
