@@ -1,7 +1,9 @@
 # Clear Hud Rewrite
 
-![Clear Hud Logo](img/clear_hud_rewrite_logo_white.png#gh-dark-mode-only)
-![Clear Hud Logo](img/clear_hud_rewrite_logo_black.png#gh-light-mode-only)
+<p align="center">
+    <img src="img/clear_hud_rewrite_logo_white.png#gh-dark-mode-only" alt="Clear Hud Logo">
+    <img src="img/clear_hud_rewrite_logo_black.png#gh-light-mode-only" alt="Clear Hud Logo">
+</p>
 
 <p align="center">
     <a href="https://github.com/TacticalTrainingTeam/clear-hud-rewrite/issues">
