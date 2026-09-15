@@ -10,5 +10,5 @@ action          = "https://github.com/TacticalTrainingTeam/clear-hud-rewrite";  
 overview        = "Hides the multiplayer chat unless you need it.";    // Supports structured text
 hideName        = 0;                        // Hide the extension name
 hidePicture     = 0;                        // Hide the extension menu
-dlcColor[]      = { 0.23, 0.39, 0.30, 1 };    // Color used for DLC stripes and backgrounds (RGBA)
+dlcColor[]      = { 0.08, 0.42, 0.58, 1 };    // Seawater blue (RGBA) — color used for DLC stripes and backgrounds
 logoSmall       = "img\clear_hud_rewrite_icon.paa";        // Display in creative lists, next to the entities added by the mod
