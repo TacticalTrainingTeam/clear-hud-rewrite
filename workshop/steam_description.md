@@ -6,7 +6,7 @@ Rewrite of the original Clear Hud by Soldia.
 
 # Requirements
 
-- [CBA_A3](https://github.com/CBATeam/CBA_A3)
+- [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
 
 # Source & Issues
 
@@ -20,4 +20,4 @@ Licensed under [MIT](https://github.com/TacticalTrainingTeam/clear-hud-rewrite/b
 
 ---
 
-Suchst du eine deutschsprachige Arma3 und Reforger Community? -> https://tacticalteam.de/mitmachen
+Suchst du eine deutschsprachige Arma3 und Reforger Community? -> [tacticalteam.de/mitmachen](https://tacticalteam.de/mitmachen)
