@@ -6,7 +6,7 @@ Rewrite of the original Clear Hud by Soldia.
 
 # Requirements
 
-- [CBA_A3](https://github.com/CBATeam/CBA_A3)
+- [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
 
 # Source & Issues
 
