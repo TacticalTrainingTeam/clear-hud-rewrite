@@ -20,4 +20,4 @@ Licensed under [MIT](https://github.com/TacticalTrainingTeam/clear-hud-rewrite/b
 
 ---
 
-Suchst du eine deutschsprachige Arma3 und Reforger Community? -> https://tacticalteam.de/mitmachen
+Suchst du eine deutschsprachige Arma3 und Reforger Community? -> [tacticalteam.de/mitmachen](https://tacticalteam.de/mitmachen)
