@@ -4,11 +4,11 @@
 
 Rewrite of the original Clear Hud by Soldia.
 
-# Requirements
+## Requirements
 
 - [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
 
-# Source & Issues
+## Source & Issues
 
 Fully open-source. Bug reports, feature requests, and contributions are all welcome.
 
