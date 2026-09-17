@@ -12,8 +12,8 @@ Rewrite of the original Clear Hud by Soldia.
 
 Fully open-source. Bug reports, feature requests, and contributions are all welcome.
 
-[GitHub Repository](https://github.com/TacticalTrainingTeam/clear-hud-rewrite)
-[Report an Issue](https://github.com/TacticalTrainingTeam/clear-hud-rewrite/issues)
+[GitHub Repository](https://github.com/TacticalTrainingTeam/clear-hud-rewrite)  
+[Report an Issue](https://github.com/TacticalTrainingTeam/clear-hud-rewrite/issues)  
 [Discord](https://discord.gg/ag4v6kxYAa)
 
 Licensed under [MIT](https://github.com/TacticalTrainingTeam/clear-hud-rewrite/blob/main/LICENSE).
