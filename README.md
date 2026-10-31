@@ -1,8 +1,7 @@
 # Clear Hud Rewrite
 
 <p align="center">
-    <img src="img/clear_hud_rewrite_logo_white.png#gh-dark-mode-only" alt="Clear Hud Logo">
-    <img src="img/clear_hud_rewrite_logo_black.png#gh-light-mode-only" alt="Clear Hud Logo">
+    <img src="img/logo.png" alt="Clear Hud Rewrite Logo">
 </p>
 
 <p align="center">
