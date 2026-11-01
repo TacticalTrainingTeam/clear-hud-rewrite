@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>clear-hud-rewrite</title>
+<rect width="512" height="512" rx="0" fill="#161A1F"/>
+<g transform="translate(56.00 56.00) scale(2.00000)" color="#FFFFFF" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><circle cx="100" cy="100" r="92"/>
+<path d="M60 52 H140 A12 12 0 0 1 152 64 V114 A12 12 0 0 1 140 126 H96 L72 148 V126 H60 A12 12 0 0 1 48 114 V64 A12 12 0 0 1 60 52 Z"/>
+<path d="M72 80 H128 M72 100 H108"/>
+<path d="M50 50 L150 150"/>
+</g>
+</svg>
